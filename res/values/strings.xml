@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, RecordCatalogActivity!</string>
+    <string name="app_name">Vinylogue</string>
+    <string name="have">I have...</string>
+    <string name="want">I want...</string>
+    <string name="prompt">Enter a record you have.</string>
+    <string name="artist">Artist</string>
+    <string name="album">Album</string>
+    <string name="add_album">Add it</string>
+    <string name="coverArt">Cover Art</string>
+    <string name="http_error_message">Cannot retrieve Records at this time. Please try again later.</string>
+
+</resources>

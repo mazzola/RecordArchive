@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/wrapper"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/tileable_wood_texture"
+    android:orientation="vertical" >
+    
+    <include
+        android:id="@+id/include1"
+        android:layout_width="fill_parent"
+        android:layout_height="35dp"
+        layout="@layout/header" />
+    
+    <include
+        android:id="@+id/action_bar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/action_bar" />
+    
+     <FrameLayout android:id="@+id/actionContent" 
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+    
+
+</LinearLayout>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/container"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+        android:id="@+id/container_catalog"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft= "20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop= "20dp"
+        android:layout_gravity="center_horizontal"
+        android:padding="20dp"
+        android:orientation="vertical"
+        android:background="@drawable/panel_rounded" >
+
+        <LinearLayout
+            android:id="@+id/container_action"
+            android:layout_width="fill_parent"
+            android:layout_marginTop= "15dp"
+            android:gravity="center"
+            android:layout_height="wrap_content" >
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView_prompt"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:text="@string/prompt"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <TextView
+            android:id="@+id/textView_artist"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="@string/artist"
+            android:textColor="@color/light_gray"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <EditText
+            android:id="@+id/editText_artist"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:singleLine="true" 
+            android:inputType="text">
+
+            <requestFocus />
+        </EditText>
+
+        <TextView
+            android:id="@+id/textView_album"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="5dp"
+            android:text="@string/album"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/light_gray" />
+        
+        <EditText
+            android:id="@+id/editText_album"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:inputType="text" />
+
+        <Button
+            android:id="@+id/button_add"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:paddingLeft="50dp"
+            android:paddingRight="50dp"
+            android:layout_marginTop="20dp"
+            android:text="@string/add_album"
+             />
+
+    </LinearLayout>
+</ScrollView>
+
